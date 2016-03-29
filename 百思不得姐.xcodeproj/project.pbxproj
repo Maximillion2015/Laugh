@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1898440C1CAA4719009FAF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898440B1CAA4719009FAF06 /* main.m */; };
 		1898440F1CAA4719009FAF06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898440E1CAA4719009FAF06 /* AppDelegate.m */; };
-		189844121CAA4719009FAF06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844111CAA4719009FAF06 /* ViewController.m */; };
 		189844151CAA4719009FAF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189844131CAA4719009FAF06 /* Main.storyboard */; };
 		189844171CAA4719009FAF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189844161CAA4719009FAF06 /* Assets.xcassets */; };
 		189844251CAA4719009FAF06 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844241CAA4719009FAF06 /* _____Tests.m */; };
 		189844301CAA4719009FAF06 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898442F1CAA4719009FAF06 /* _____UITests.m */; };
+		1898443F1CAA53E2009FAF06 /* YFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898443E1CAA53E2009FAF06 /* YFTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		1898440B1CAA4719009FAF06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1898440D1CAA4719009FAF06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1898440E1CAA4719009FAF06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		189844101CAA4719009FAF06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		189844111CAA4719009FAF06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		189844141CAA4719009FAF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189844161CAA4719009FAF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1898441B1CAA4719009FAF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		1898442B1CAA4719009FAF06 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1898442F1CAA4719009FAF06 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		189844311CAA4719009FAF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1898443D1CAA53E2009FAF06 /* YFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBarController.h; sourceTree = "<group>"; };
+		1898443E1CAA53E2009FAF06 /* YFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				1898440D1CAA4719009FAF06 /* AppDelegate.h */,
 				1898440E1CAA4719009FAF06 /* AppDelegate.m */,
-				189844101CAA4719009FAF06 /* ViewController.h */,
-				189844111CAA4719009FAF06 /* ViewController.m */,
+				1898443D1CAA53E2009FAF06 /* YFTabBarController.h */,
+				1898443E1CAA53E2009FAF06 /* YFTabBarController.m */,
 				1898440A1CAA4719009FAF06 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -199,6 +199,7 @@
 		189843FF1CAA4719009FAF06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "张艺峰";
 				TargetAttributes = {
@@ -269,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189844121CAA4719009FAF06 /* ViewController.m in Sources */,
 				1898440F1CAA4719009FAF06 /* AppDelegate.m in Sources */,
 				1898440C1CAA4719009FAF06 /* main.m in Sources */,
+				1898443F1CAA53E2009FAF06 /* YFTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YFTabBarController.h
 //  百思不得姐
 //
 //  Created by 张艺峰 on 16/3/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YFTabBarController : UITabBarController
 
 @end
-
