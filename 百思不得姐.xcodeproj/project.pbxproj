@@ -14,6 +14,11 @@
 		189844251CAA4719009FAF06 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844241CAA4719009FAF06 /* _____Tests.m */; };
 		189844301CAA4719009FAF06 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898442F1CAA4719009FAF06 /* _____UITests.m */; };
 		1898443F1CAA53E2009FAF06 /* YFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898443E1CAA53E2009FAF06 /* YFTabBarController.m */; };
+		189844421CAA6FC2009FAF06 /* YFEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844411CAA6FC2009FAF06 /* YFEssenceViewController.m */; };
+		189844451CAA6FE1009FAF06 /* YFNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844441CAA6FE1009FAF06 /* YFNewViewController.m */; };
+		189844481CAA6FF7009FAF06 /* YFFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844471CAA6FF7009FAF06 /* YFFriendViewController.m */; };
+		1898444B1CAA7007009FAF06 /* YFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898444A1CAA7007009FAF06 /* YFMeViewController.m */; };
+		1898444E1CAA7244009FAF06 /* YFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898444D1CAA7244009FAF06 /* YFTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,16 @@
 		189844311CAA4719009FAF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1898443D1CAA53E2009FAF06 /* YFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBarController.h; sourceTree = "<group>"; };
 		1898443E1CAA53E2009FAF06 /* YFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBarController.m; sourceTree = "<group>"; };
+		189844401CAA6FC2009FAF06 /* YFEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEssenceViewController.h; sourceTree = "<group>"; };
+		189844411CAA6FC2009FAF06 /* YFEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEssenceViewController.m; sourceTree = "<group>"; };
+		189844431CAA6FE1009FAF06 /* YFNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNewViewController.h; sourceTree = "<group>"; };
+		189844441CAA6FE1009FAF06 /* YFNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNewViewController.m; sourceTree = "<group>"; };
+		189844461CAA6FF7009FAF06 /* YFFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFriendViewController.h; sourceTree = "<group>"; };
+		189844471CAA6FF7009FAF06 /* YFFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFriendViewController.m; sourceTree = "<group>"; };
+		189844491CAA7007009FAF06 /* YFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMeViewController.h; sourceTree = "<group>"; };
+		1898444A1CAA7007009FAF06 /* YFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMeViewController.m; sourceTree = "<group>"; };
+		1898444C1CAA7244009FAF06 /* YFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBar.h; sourceTree = "<group>"; };
+		1898444D1CAA7244009FAF06 /* YFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,16 @@
 				1898440E1CAA4719009FAF06 /* AppDelegate.m */,
 				1898443D1CAA53E2009FAF06 /* YFTabBarController.h */,
 				1898443E1CAA53E2009FAF06 /* YFTabBarController.m */,
+				189844401CAA6FC2009FAF06 /* YFEssenceViewController.h */,
+				189844411CAA6FC2009FAF06 /* YFEssenceViewController.m */,
+				189844431CAA6FE1009FAF06 /* YFNewViewController.h */,
+				189844441CAA6FE1009FAF06 /* YFNewViewController.m */,
+				189844461CAA6FF7009FAF06 /* YFFriendViewController.h */,
+				189844471CAA6FF7009FAF06 /* YFFriendViewController.m */,
+				189844491CAA7007009FAF06 /* YFMeViewController.h */,
+				1898444A1CAA7007009FAF06 /* YFMeViewController.m */,
+				1898444C1CAA7244009FAF06 /* YFTabBar.h */,
+				1898444D1CAA7244009FAF06 /* YFTabBar.m */,
 				1898440A1CAA4719009FAF06 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -270,6 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1898444E1CAA7244009FAF06 /* YFTabBar.m in Sources */,
+				189844451CAA6FE1009FAF06 /* YFNewViewController.m in Sources */,
+				189844481CAA6FF7009FAF06 /* YFFriendViewController.m in Sources */,
+				189844421CAA6FC2009FAF06 /* YFEssenceViewController.m in Sources */,
+				1898444B1CAA7007009FAF06 /* YFMeViewController.m in Sources */,
 				1898440F1CAA4719009FAF06 /* AppDelegate.m in Sources */,
 				1898440C1CAA4719009FAF06 /* main.m in Sources */,
 				1898443F1CAA53E2009FAF06 /* YFTabBarController.m in Sources */,

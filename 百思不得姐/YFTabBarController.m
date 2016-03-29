@@ -7,6 +7,11 @@
 //
 
 #import "YFTabBarController.h"
+#import "YFEssenceViewController.h"
+#import "YFFriendViewController.h"
+#import "YFNewViewController.h"
+#import "YFMeViewController.h"
+#import "YFTabBar.h"
 
 @interface YFTabBarController ()
 
@@ -32,14 +37,15 @@
     [item setTitleTextAttributes:selattr forState:UIControlStateSelected];
     
     // 加入子控制器
-    [self setUpChildController:[[UIViewController alloc] init] imageName:@"tabBar_essence_icon" selectImageName:@"tabBar_essence_click_icon" title:@"精华"];
+    [self setUpChildController:[[YFEssenceViewController alloc] init] imageName:@"tabBar_essence_icon" selectImageName:@"tabBar_essence_click_icon" title:@"精华"];
     
-    [self setUpChildController:[[UIViewController alloc] init] imageName:@"tabBar_friendTrends_icon" selectImageName:@"tabBar_friendTrends_click_icon" title:@"精华"];
+    [self setUpChildController:[[YFFriendViewController alloc] init] imageName:@"tabBar_new_icon" selectImageName:@"tabBar_new_click_icon" title:@"新帖"];
     
-    [self setUpChildController:[[UIViewController alloc] init] imageName:@"tabBar_me_icon" selectImageName:@"tabBar_me_click_icon" title:@"精华"];
+    [self setUpChildController:[[YFNewViewController alloc] init] imageName:@"tabBar_friendTrends_icon" selectImageName:@"tabBar_friendTrends_click_icon" title:@"关注"];
     
-    [self setUpChildController:[[UIViewController alloc] init] imageName:@"tabBar_new_icon" selectImageName:@"tabBar_new_click_icon" title:@"精华"];
-
+    [self setUpChildController:[[YFMeViewController alloc] init] imageName:@"tabBar_me_icon" selectImageName:@"tabBar_me_click_icon" title:@"我"];
+    
+    [self setValue:[[YFTabBar alloc] init] forKeyPath:@"tabBar"];
 }
 
 
@@ -49,7 +55,7 @@
     image  = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     class.tabBarItem.image = [UIImage imageNamed:imageName];
     class.tabBarItem.selectedImage = image;
-    class.tabBarItem.title = @"精华";
+    class.tabBarItem.title = title;
     class.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0  blue:arc4random_uniform(100)/100.0  alpha:1.0];
     [self addChildViewController:class];
 }
