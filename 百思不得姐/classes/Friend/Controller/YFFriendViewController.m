@@ -1,22 +1,32 @@
 //
-//  YFEssenceViewController.m
+//  YFFriendViewController.m
 //  百思不得姐
 //
 //  Created by 张艺峰 on 16/3/29.
 //  Copyright © 2016年 张艺峰. All rights reserved.
 //
 
-#import "YFEssenceViewController.h"
+#import "YFFriendViewController.h"
 
-@interface YFEssenceViewController ()
+@interface YFFriendViewController ()
 
 @end
 
-@implementation YFEssenceViewController
+@implementation YFFriendViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = YFGlobleColor;
+    
+    self.navigationItem.title = @"我的关注";
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"friendsRecommentIcon" selImage:@"friendsRecommentIconClick" target:self sel:@selector(friendClick)];
+}
+
+- (void)friendClick
+{
+    YFLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

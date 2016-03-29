@@ -17,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = YFGlobleColor;
+    
+    self.navigationItem.titleView  = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"MainTagSubIcon" selImage:@"MainTagSubIconClick" target:self sel:@selector(tagClick)];
+
+}
+
+- (void)tagClick
+{
+    YFLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1898440C1CAA4719009FAF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898440B1CAA4719009FAF06 /* main.m */; };
-		1898440F1CAA4719009FAF06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898440E1CAA4719009FAF06 /* AppDelegate.m */; };
 		189844151CAA4719009FAF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189844131CAA4719009FAF06 /* Main.storyboard */; };
 		189844171CAA4719009FAF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189844161CAA4719009FAF06 /* Assets.xcassets */; };
 		189844251CAA4719009FAF06 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844241CAA4719009FAF06 /* _____Tests.m */; };
 		189844301CAA4719009FAF06 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898442F1CAA4719009FAF06 /* _____UITests.m */; };
-		1898443F1CAA53E2009FAF06 /* YFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898443E1CAA53E2009FAF06 /* YFTabBarController.m */; };
-		189844421CAA6FC2009FAF06 /* YFEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844411CAA6FC2009FAF06 /* YFEssenceViewController.m */; };
-		189844451CAA6FE1009FAF06 /* YFNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844441CAA6FE1009FAF06 /* YFNewViewController.m */; };
-		189844481CAA6FF7009FAF06 /* YFFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844471CAA6FF7009FAF06 /* YFFriendViewController.m */; };
-		1898444B1CAA7007009FAF06 /* YFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898444A1CAA7007009FAF06 /* YFMeViewController.m */; };
-		1898444E1CAA7244009FAF06 /* YFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898444D1CAA7244009FAF06 /* YFTabBar.m */; };
+		189844801CAAC5AD009FAF06 /* YFEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898445B1CAAC5AD009FAF06 /* YFEssenceViewController.m */; };
+		189844811CAAC5AD009FAF06 /* YFFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844611CAAC5AD009FAF06 /* YFFriendViewController.m */; };
+		189844821CAAC5AD009FAF06 /* YFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844671CAAC5AD009FAF06 /* YFMeViewController.m */; };
+		189844831CAAC5AD009FAF06 /* YFNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898446D1CAAC5AD009FAF06 /* YFNewViewController.m */; };
+		189844841CAAC5AD009FAF06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844721CAAC5AD009FAF06 /* AppDelegate.m */; };
+		189844851CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844761CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.m */; };
+		189844861CAAC5AD009FAF06 /* UIView+YFExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844781CAAC5AD009FAF06 /* UIView+YFExtention.m */; };
+		189844871CAAC5AD009FAF06 /* YFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898447A1CAAC5AD009FAF06 /* YFTabBarController.m */; };
+		189844881CAAC5AD009FAF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898447B1CAAC5AD009FAF06 /* main.m */; };
+		189844891CAAC5AD009FAF06 /* YFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898447F1CAAC5AD009FAF06 /* YFTabBar.m */; };
+		1898448C1CAACB23009FAF06 /* YFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898448B1CAACB23009FAF06 /* YFNavigationController.m */; };
+		1898448F1CAACCC1009FAF06 /* YFViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898448E1CAACCC1009FAF06 /* YFViewController1.m */; };
+		189844921CAACCD1009FAF06 /* YFViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 189844911CAACCD1009FAF06 /* YFViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +45,6 @@
 
 /* Begin PBXFileReference section */
 		189844071CAA4719009FAF06 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1898440B1CAA4719009FAF06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1898440D1CAA4719009FAF06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1898440E1CAA4719009FAF06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		189844141CAA4719009FAF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189844161CAA4719009FAF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1898441B1CAA4719009FAF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,18 +54,32 @@
 		1898442B1CAA4719009FAF06 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1898442F1CAA4719009FAF06 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		189844311CAA4719009FAF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1898443D1CAA53E2009FAF06 /* YFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBarController.h; sourceTree = "<group>"; };
-		1898443E1CAA53E2009FAF06 /* YFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBarController.m; sourceTree = "<group>"; };
-		189844401CAA6FC2009FAF06 /* YFEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEssenceViewController.h; sourceTree = "<group>"; };
-		189844411CAA6FC2009FAF06 /* YFEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEssenceViewController.m; sourceTree = "<group>"; };
-		189844431CAA6FE1009FAF06 /* YFNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNewViewController.h; sourceTree = "<group>"; };
-		189844441CAA6FE1009FAF06 /* YFNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNewViewController.m; sourceTree = "<group>"; };
-		189844461CAA6FF7009FAF06 /* YFFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFriendViewController.h; sourceTree = "<group>"; };
-		189844471CAA6FF7009FAF06 /* YFFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFriendViewController.m; sourceTree = "<group>"; };
-		189844491CAA7007009FAF06 /* YFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMeViewController.h; sourceTree = "<group>"; };
-		1898444A1CAA7007009FAF06 /* YFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMeViewController.m; sourceTree = "<group>"; };
-		1898444C1CAA7244009FAF06 /* YFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBar.h; sourceTree = "<group>"; };
-		1898444D1CAA7244009FAF06 /* YFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBar.m; sourceTree = "<group>"; };
+		1898445A1CAAC5AD009FAF06 /* YFEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFEssenceViewController.h; sourceTree = "<group>"; };
+		1898445B1CAAC5AD009FAF06 /* YFEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFEssenceViewController.m; sourceTree = "<group>"; };
+		189844601CAAC5AD009FAF06 /* YFFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFriendViewController.h; sourceTree = "<group>"; };
+		189844611CAAC5AD009FAF06 /* YFFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFFriendViewController.m; sourceTree = "<group>"; };
+		189844661CAAC5AD009FAF06 /* YFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMeViewController.h; sourceTree = "<group>"; };
+		189844671CAAC5AD009FAF06 /* YFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMeViewController.m; sourceTree = "<group>"; };
+		1898446C1CAAC5AD009FAF06 /* YFNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNewViewController.h; sourceTree = "<group>"; };
+		1898446D1CAAC5AD009FAF06 /* YFNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNewViewController.m; sourceTree = "<group>"; };
+		189844711CAAC5AD009FAF06 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189844721CAAC5AD009FAF06 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189844751CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YFExtention.h"; sourceTree = "<group>"; };
+		189844761CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YFExtention.m"; sourceTree = "<group>"; };
+		189844771CAAC5AD009FAF06 /* UIView+YFExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YFExtention.h"; sourceTree = "<group>"; };
+		189844781CAAC5AD009FAF06 /* UIView+YFExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YFExtention.m"; sourceTree = "<group>"; };
+		189844791CAAC5AD009FAF06 /* YFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBarController.h; sourceTree = "<group>"; };
+		1898447A1CAAC5AD009FAF06 /* YFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBarController.m; sourceTree = "<group>"; };
+		1898447B1CAAC5AD009FAF06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1898447C1CAAC5AD009FAF06 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1898447E1CAAC5AD009FAF06 /* YFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBar.h; sourceTree = "<group>"; };
+		1898447F1CAAC5AD009FAF06 /* YFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBar.m; sourceTree = "<group>"; };
+		1898448A1CAACB23009FAF06 /* YFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNavigationController.h; sourceTree = "<group>"; };
+		1898448B1CAACB23009FAF06 /* YFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNavigationController.m; sourceTree = "<group>"; };
+		1898448D1CAACCC1009FAF06 /* YFViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFViewController1.h; sourceTree = "<group>"; };
+		1898448E1CAACCC1009FAF06 /* YFViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFViewController1.m; sourceTree = "<group>"; };
+		189844901CAACCD1009FAF06 /* YFViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFViewController2.h; sourceTree = "<group>"; };
+		189844911CAACCD1009FAF06 /* YFViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,20 +130,7 @@
 		189844091CAA4719009FAF06 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				1898440D1CAA4719009FAF06 /* AppDelegate.h */,
-				1898440E1CAA4719009FAF06 /* AppDelegate.m */,
-				1898443D1CAA53E2009FAF06 /* YFTabBarController.h */,
-				1898443E1CAA53E2009FAF06 /* YFTabBarController.m */,
-				189844401CAA6FC2009FAF06 /* YFEssenceViewController.h */,
-				189844411CAA6FC2009FAF06 /* YFEssenceViewController.m */,
-				189844431CAA6FE1009FAF06 /* YFNewViewController.h */,
-				189844441CAA6FE1009FAF06 /* YFNewViewController.m */,
-				189844461CAA6FF7009FAF06 /* YFFriendViewController.h */,
-				189844471CAA6FF7009FAF06 /* YFFriendViewController.m */,
-				189844491CAA7007009FAF06 /* YFMeViewController.h */,
-				1898444A1CAA7007009FAF06 /* YFMeViewController.m */,
-				1898444C1CAA7244009FAF06 /* YFTabBar.h */,
-				1898444D1CAA7244009FAF06 /* YFTabBar.m */,
+				189844571CAAC5AD009FAF06 /* classes */,
 				1898440A1CAA4719009FAF06 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -139,7 +142,6 @@
 				1898441B1CAA4719009FAF06 /* Info.plist */,
 				189844131CAA4719009FAF06 /* Main.storyboard */,
 				189844161CAA4719009FAF06 /* Assets.xcassets */,
-				1898440B1CAA4719009FAF06 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,6 +162,199 @@
 				189844311CAA4719009FAF06 /* Info.plist */,
 			);
 			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		189844571CAAC5AD009FAF06 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				189844581CAAC5AD009FAF06 /* Essence */,
+				1898446A1CAAC5AD009FAF06 /* New */,
+				1898445E1CAAC5AD009FAF06 /* Friend */,
+				189844641CAAC5AD009FAF06 /* Me */,
+				189844701CAAC5AD009FAF06 /* Other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		189844581CAAC5AD009FAF06 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				189844591CAAC5AD009FAF06 /* Controller */,
+				1898445C1CAAC5AD009FAF06 /* Model */,
+				1898445D1CAAC5AD009FAF06 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		189844591CAAC5AD009FAF06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1898445A1CAAC5AD009FAF06 /* YFEssenceViewController.h */,
+				1898445B1CAAC5AD009FAF06 /* YFEssenceViewController.m */,
+				1898448D1CAACCC1009FAF06 /* YFViewController1.h */,
+				1898448E1CAACCC1009FAF06 /* YFViewController1.m */,
+				189844901CAACCD1009FAF06 /* YFViewController2.h */,
+				189844911CAACCD1009FAF06 /* YFViewController2.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1898445C1CAAC5AD009FAF06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1898445D1CAAC5AD009FAF06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1898445E1CAAC5AD009FAF06 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				1898445F1CAAC5AD009FAF06 /* Controller */,
+				189844621CAAC5AD009FAF06 /* Model */,
+				189844631CAAC5AD009FAF06 /* View */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		1898445F1CAAC5AD009FAF06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189844601CAAC5AD009FAF06 /* YFFriendViewController.h */,
+				189844611CAAC5AD009FAF06 /* YFFriendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		189844621CAAC5AD009FAF06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189844631CAAC5AD009FAF06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189844641CAAC5AD009FAF06 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				189844651CAAC5AD009FAF06 /* Controller */,
+				189844681CAAC5AD009FAF06 /* Model */,
+				189844691CAAC5AD009FAF06 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		189844651CAAC5AD009FAF06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189844661CAAC5AD009FAF06 /* YFMeViewController.h */,
+				189844671CAAC5AD009FAF06 /* YFMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		189844681CAAC5AD009FAF06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189844691CAAC5AD009FAF06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1898446A1CAAC5AD009FAF06 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				1898446B1CAAC5AD009FAF06 /* Controller */,
+				1898446E1CAAC5AD009FAF06 /* Model */,
+				1898446F1CAAC5AD009FAF06 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		1898446B1CAAC5AD009FAF06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1898446C1CAAC5AD009FAF06 /* YFNewViewController.h */,
+				1898446D1CAAC5AD009FAF06 /* YFNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1898446E1CAAC5AD009FAF06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1898446F1CAAC5AD009FAF06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189844701CAAC5AD009FAF06 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				189844711CAAC5AD009FAF06 /* AppDelegate.h */,
+				189844721CAAC5AD009FAF06 /* AppDelegate.m */,
+				189844731CAAC5AD009FAF06 /* Catelog */,
+				189844741CAAC5AD009FAF06 /* Controller */,
+				1898447B1CAAC5AD009FAF06 /* main.m */,
+				1898447C1CAAC5AD009FAF06 /* PrefixHeader.pch */,
+				1898447D1CAAC5AD009FAF06 /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		189844731CAAC5AD009FAF06 /* Catelog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catelog;
+			sourceTree = "<group>";
+		};
+		189844741CAAC5AD009FAF06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189844751CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.h */,
+				189844761CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.m */,
+				189844771CAAC5AD009FAF06 /* UIView+YFExtention.h */,
+				189844781CAAC5AD009FAF06 /* UIView+YFExtention.m */,
+				189844791CAAC5AD009FAF06 /* YFTabBarController.h */,
+				1898447A1CAAC5AD009FAF06 /* YFTabBarController.m */,
+				1898448A1CAACB23009FAF06 /* YFNavigationController.h */,
+				1898448B1CAACB23009FAF06 /* YFNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1898447D1CAAC5AD009FAF06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1898447E1CAAC5AD009FAF06 /* YFTabBar.h */,
+				1898447F1CAAC5AD009FAF06 /* YFTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,14 +490,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1898444E1CAA7244009FAF06 /* YFTabBar.m in Sources */,
-				189844451CAA6FE1009FAF06 /* YFNewViewController.m in Sources */,
-				189844481CAA6FF7009FAF06 /* YFFriendViewController.m in Sources */,
-				189844421CAA6FC2009FAF06 /* YFEssenceViewController.m in Sources */,
-				1898444B1CAA7007009FAF06 /* YFMeViewController.m in Sources */,
-				1898440F1CAA4719009FAF06 /* AppDelegate.m in Sources */,
-				1898440C1CAA4719009FAF06 /* main.m in Sources */,
-				1898443F1CAA53E2009FAF06 /* YFTabBarController.m in Sources */,
+				189844891CAAC5AD009FAF06 /* YFTabBar.m in Sources */,
+				1898448F1CAACCC1009FAF06 /* YFViewController1.m in Sources */,
+				189844831CAAC5AD009FAF06 /* YFNewViewController.m in Sources */,
+				189844801CAAC5AD009FAF06 /* YFEssenceViewController.m in Sources */,
+				189844811CAAC5AD009FAF06 /* YFFriendViewController.m in Sources */,
+				189844861CAAC5AD009FAF06 /* UIView+YFExtention.m in Sources */,
+				189844821CAAC5AD009FAF06 /* YFMeViewController.m in Sources */,
+				189844851CAAC5AD009FAF06 /* UIBarButtonItem+YFExtention.m in Sources */,
+				189844921CAACCD1009FAF06 /* YFViewController2.m in Sources */,
+				1898448C1CAACB23009FAF06 /* YFNavigationController.m in Sources */,
+				189844871CAAC5AD009FAF06 /* YFTabBarController.m in Sources */,
+				189844881CAAC5AD009FAF06 /* main.m in Sources */,
+				189844841CAAC5AD009FAF06 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +636,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-----";
@@ -448,6 +649,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkofsomethingclever.-----";

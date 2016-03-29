@@ -34,10 +34,10 @@
     [super layoutSubviews];
     
     // 不能在init里面写，因为那时还没有加载出来，所以不能取self的长宽
-    self.publicBtn.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height * 0.5);
+    self.publicBtn.center = CGPointMake(self.width * 0.5, self.height * 0.5);
     
-    int tabBarButtonW = self.bounds.size.width / 5;
-    int tabBarButtonH = self.bounds.size.height;
+    int tabBarButtonW = self.width / 5;
+    int tabBarButtonH = self.height;
     
     int index = 0;
     
