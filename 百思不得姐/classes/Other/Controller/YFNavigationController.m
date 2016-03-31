@@ -14,6 +14,7 @@
 
 @implementation YFNavigationController
 
+// 如果放入viewDidLoad中会调用四次，但是initialize是这个类第一次出现的时候调用一次
 + (void)initialize
 {
     UIImage *bg = [UIImage imageNamed:@"navigationbarBackgroundWhite"];
@@ -43,7 +44,9 @@
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     }
     
+    // 如果写上面那么tabbar也会隐藏
     [super pushViewController:viewController animated:animated];
+
 }
 
 - (void)back

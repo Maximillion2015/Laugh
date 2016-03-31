@@ -22,6 +22,7 @@
     
     self.navigationItem.titleView  = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"MainTagSubIcon" selImage:@"MainTagSubIconClick" target:self sel:@selector(tagClick)];
+    YFLogFunc;
 
 }
 

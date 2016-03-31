@@ -7,6 +7,7 @@
 //
 
 #import "YFFriendViewController.h"
+#import "YFRecommendViewController.h"
 
 @interface YFFriendViewController ()
 
@@ -26,7 +27,8 @@
 
 - (void)friendClick
 {
-    YFLogFunc;
+    YFRecommendViewController *recommentViewController = [[YFRecommendViewController alloc] init];
+    [self.navigationController pushViewController:recommentViewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
